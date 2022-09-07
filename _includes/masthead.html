@@ -2,14 +2,10 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">  
         <a class="site-title" href="{{ '/' | relative_url }}">
             {{ site.masthead_title | default: site.title }}
             {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
-      </nav>
-    </div>
   </div>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
