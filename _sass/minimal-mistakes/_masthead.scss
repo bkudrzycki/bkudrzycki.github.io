@@ -22,7 +22,7 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     font-family: $sans-serif-narrow;
     flex-direction: column;
     @include breakpoint($x-large) {
