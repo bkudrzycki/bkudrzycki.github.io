@@ -4,13 +4,26 @@
       <a class="blog-header-logo text-dark" href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Playfair', cursive;">{{ site.title }}</a>
     </div>
   </div>
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-center">
-      {% for collection in site.collections %}
-        {% if collection.label != 'posts' %}
-          <a class="p-3 text-uppercase text-muted small" href="{{ collection.label | prepend: "/" | prepend: site.baseurl | prepend: site.url}}">{{ collection.label | capitalize }}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
+  <div class="masthead__menu">
+     <nav id="site-nav" class="greedy-nav">        
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>             
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
   </div>
 </header>
