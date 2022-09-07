@@ -42,21 +42,6 @@
   max-height: 2rem;
 }
 
-.site-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-  align-self: center;
-  font-weight: bold;
-  // z-index: 20;
-}
-
-.site-subtitle {
-  display: block;
-  font-size: $type-size-6;
-}
-
 .masthead__menu {
   width: 50%;
   display: block;
@@ -73,6 +58,23 @@
     list-style-type: none;
   }
 }
+
+.site-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-weight: bold;
+  // z-index: 20;
+}
+
+.site-subtitle {
+  display: block;
+  font-size: $type-size-6;
+}
+
+
 
 .masthead__menu-item {
   display: block;
