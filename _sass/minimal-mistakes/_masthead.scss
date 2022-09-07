@@ -13,8 +13,9 @@
 
   &__inner-wrap {
     display:flex;
-    padding: 1em;
+    flex-direction: column;
     justify-content: center;
+    padding: 1em;
     font-family: $ultra;
 
     nav {
