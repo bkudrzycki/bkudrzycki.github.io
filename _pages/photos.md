@@ -8,7 +8,7 @@ gallery:
   - title: "Forum Romanum"
   - url: url: /pics/rom2.jpg
     image_path: /pics/rom2.jpg
-    title: "Trinità dei Monti"
+    title: "Trinita dei Monti"
   - url: url: /pics/rom3.jpg
     image_path: /pics/rom3.jpg
     title: "Schmu"
