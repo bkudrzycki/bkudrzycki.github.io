@@ -1,19 +1,19 @@
 ---
-title: "Gallery"
+title: "Photos"
 layout: single
 permalink: /photos/
-author_profile: true
-comments: true
+author_profile: false
+comments: false
 gallery:
   - url: /pics/gallery/rom1.jpg
     image_path: /pics/gallery/rom1.jpg
-    title: "Harkness Tower"
+    title: "Baths of Caracalla"
   - url: /pics/gallery/rom2.jpg
     image_path: /pics/gallery/rom2.jpg
-    title: "Yale Beinecke Rare Book Library"
+    title: "Trinità dei Monti"
   - url: /pics/gallery/rom3.jpg
     image_path: /pics/gallery/rom3.jpg
-    title: "Mountain top of East Rock"
+    title: "Schmu"
 ---
 
 
