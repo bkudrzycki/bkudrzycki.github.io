@@ -59,19 +59,16 @@
 }
 
 .masthead__menu {
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   width: 80%;
   display: block;
-  font-size: $type-size-8;
+  font-size: $type-size-6;
   clear: both;
 
   .site-nav {
-    margin-left: 0;
+    margin-right: 0;
 
     @include breakpoint($small) {
-      float: left;
+      float: right;
     }
   }
 
