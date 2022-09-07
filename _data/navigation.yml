@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Photos"
-    url: bkudrzycki.github.io/photos/
+    url: /photos/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
