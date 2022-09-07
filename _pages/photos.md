@@ -1,19 +1,21 @@
 ---
-title: "Photos"
+title: "Gallery"
 layout: single
-permalink: /photos/
+permalink: /gallery/
 author_profile: true
 comments: true
 gallery:
   - url: /pics/gallery/rom1.jpg
     image_path: /pics/gallery/rom1.jpg
-    title: "Forum Romanum"
-  - url: url: /pics/gallery/rom2.jpg
+    title: "Harkness Tower"
+  - url: /pics/gallery/rom2.jpg
     image_path: /pics/gallery/rom2.jpg
-    title: "Trinita dei Monti"
-  - url: url: /pics/gallery/rom3.jpg
+    title: "Yale Beinecke Rare Book Library"
+  - url: /pics/gallery/rom3.jpg
     image_path: /pics/gallery/rom3.jpg
-    title: "Schmu"
+    title: "Mountain top of East Rock"
 ---
+
+
 
 {% include gallery caption="**Rome 2022**" %}
