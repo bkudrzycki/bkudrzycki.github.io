@@ -20,11 +20,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     font-family: $sans-serif-narrow;
-    flex-direction: column;
     @include breakpoint($x-large) {
       max-width: $max-width;
     }
