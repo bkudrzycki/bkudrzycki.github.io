@@ -23,9 +23,6 @@
     -ms-flex-pack: center;
     justify-content: center;
     font-family: $sans-serif-narrow;
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
 
     nav {
       z-index: 10;
