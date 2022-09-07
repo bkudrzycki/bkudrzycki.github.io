@@ -60,20 +60,16 @@
 .masthead__menu {
   width: 30%;
   display: block;
-  font-size: $type-size-6;
+  font-size: $type-size-16;
   clear: both;
 
   .site-nav {
-    margin-left: 0;
-
-    @include breakpoint($small) {
-      float: left;
-    }
+    margin-left: auto;
   }
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 1em;
     clear: both;
     list-style-type: none;
   }
