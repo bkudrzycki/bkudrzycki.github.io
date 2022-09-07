@@ -3,14 +3,14 @@ title: "Photos"
 layout: single
 permalink: /photos/
 gallery:
-  - url: /pics/gallery/rom1.jpg
-    image_path: /pics/gallery/rom1.jpg
+  - url: /pics/rom1.jpg
+    image_path: /pics/rom1.jpg
   - title: "Forum Romanum"
-  - url: url: /pics/gallery/rom2.jpg
-    image_path: /pics/gallery/rom2.jpg
-    title: "TrinitÃ  dei Monti"
-  - url: url: /pics/gallery/rom3.jpg
-    image_path: /pics/gallery/rom3.jpg
+  - url: url: /pics/rom2.jpg
+    image_path: /pics/rom2.jpg
+    title: "Trinità dei Monti"
+  - url: url: /pics/rom3.jpg
+    image_path: /pics/rom3.jpg
     title: "Schmu"
 ---
 
