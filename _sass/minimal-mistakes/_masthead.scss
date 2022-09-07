@@ -12,15 +12,7 @@
   z-index: 20;
 
   &__inner-wrap {
-    margin-left: auto;
-    margin-right: auto;
     padding: 1em;
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     font-family: $sans-serif-narrow;
 
