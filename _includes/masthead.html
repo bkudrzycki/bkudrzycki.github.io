@@ -1,7 +1,9 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
-<div class="col-12 text-center">
-  <a href="{{ '/' | relative_url }}" href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra'">{{ site.title }}</a>
+<div class="row flex-nowrap justify-content-between align-items-center pb-3 pt-1">
+  <div class="col-12 text-center">
+    <a href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra' font-size: 2.25rem">{{ site.title }}</a>
+  </div>
 </div>
   
 <div class="masthead">
