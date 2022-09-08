@@ -74,10 +74,6 @@
   }
 
   ul {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    overflow: hidden;
     margin: 0;
     padding: 0;
     clear: both;
@@ -86,7 +82,8 @@
 }
 
 .masthead__menu-item {
-  display: block;
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   white-space: nowrap;
 
