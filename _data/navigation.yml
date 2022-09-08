@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "CV"
+    url: /CV/
   - title: "Photos"
     url: /photos/
   - title: "Quick-Start Guide"
