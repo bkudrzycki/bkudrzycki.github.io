@@ -1,9 +1,10 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+<div class="col-12 text-center">
+  <a class="site-title" href="{{ '/' | relative_url }}" href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra'">{{ site.title }}</a>
+</div>
+  
 <div class="masthead">
-  <div class="col-12 text-center">
-    <a class="site-title" href="{{ '/' | relative_url }}" href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra'">{{ site.title }}</a>
-  </div>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
