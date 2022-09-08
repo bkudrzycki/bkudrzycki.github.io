@@ -1,5 +1,17 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+# <header class="blog-header my-5">
+  # <div class="row flex-nowrap justify-content-between align-items-center pb-3 pt-1">
+    # <div class="col-12 text-center">
+      # <a class="blog-header-logo text-dark" href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra'">{{ site.title }}</a>
+    # </div>
+  # </div>
+# </header>
+
+<div class="col-12 text-center">
+  <a href="{{ site.baseurl | prepend: site.url}}/" style="font-family: 'Ultra'">{{ site.title }}</a>
+</div>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
