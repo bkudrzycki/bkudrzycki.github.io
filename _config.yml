@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default"  # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Bart Kudrzycki"
 title_separator          : "-"
 subtitle                 : # "Subtitle"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Bartlomiej P. Kudrzycki"
+description              : "Personal website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bkudrzycki"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Bart Kudrzycki"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Economist with programming skills."
   location         : 
   email            :
   links:
