@@ -1,17 +1,11 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 <div class="row flex-nowrap justify-content-between align-items-center pb-3 pt-1">
-  <div class="col-12 text-center">
+  <div class="col-5 text-center">
     <a href="{{ site.baseurl | prepend: site.url}}/">{{ site.title }}</a>
   </div>
 </div>
 
-<div class="masthead">
-        <a class="site-title" href="{{ '/' | relative_url }}">
-          {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
-        </a>
-</div>
   
 <div class="masthead">
   <div class="masthead__inner-wrap">
